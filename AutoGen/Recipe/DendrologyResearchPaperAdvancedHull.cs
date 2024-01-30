@@ -61,7 +61,7 @@ namespace Eco.Mods.TechTree
             // Defines our crafting time for the recipe
             this.CraftMinutes = CreateCraftTimeValue(beneficiary: typeof(DendrologyResearchPaperAdvancedHullRecipe), start: 1, skillType: typeof(ShipwrightSkill), typeof(ShipwrightFocusedSpeedTalent), typeof(ShipwrightParallelSpeedTalent));
 
-            // Perform pre/post initialization for user mods and initialize our recipe instance with the display name "Geology Research Paper Modern Glass"
+            // Perform pre/post initialization for user mods and initialize our recipe instance with the display name "Dendrology Research Paper Advanced Hull"
             this.ModsPreInitialize();
             this.Initialize(displayText: Localizer.DoStr("Dendrology Research Paper Advanced Hull"), recipeType: typeof(DendrologyResearchPaperAdvancedHullRecipe));
             this.ModsPostInitialize();
