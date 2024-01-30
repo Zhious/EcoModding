@@ -2,6 +2,7 @@
 // See LICENSE file in the project root for full license information.
 
 // Modified by Zhious
+// https://github.com/Zhious/EcoModding
 
 namespace Eco.Mods.TechTree
 {
